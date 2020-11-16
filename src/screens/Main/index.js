@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../../components/Header';
+import Menu from '../../components/Menu';
 import Tabs from '../../components/Tabs';
 
 import {
@@ -15,12 +16,16 @@ import {
   Annotation,
 } from './styles';
 
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
 const Main = () => {
   return (
     <Container>
       <Header />
 
       <Content>
+        <Menu />
+        
         <Card>
           <CardHeader>
             <Icon name="attach-money" size={28} color="#666" />
