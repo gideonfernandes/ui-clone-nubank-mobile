@@ -9,7 +9,7 @@ const Header = () => {
     <Container>
       <Top>
         <Logo source={logo} />
-        <Title>Gideon</Title>
+        <Title>Gideon Fernandes</Title>
       </Top>
       <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
       {/* To see more Material icon names: https://material.io/resources/icons */}

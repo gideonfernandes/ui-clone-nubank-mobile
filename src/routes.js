@@ -9,7 +9,13 @@ const Routes = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Screen name="Main" component={Main} />
+      <Stack.Navigator 
+        screenOptions={{
+          headerShown: false,
+        }}
+      >
+        <Stack.Screen name="Main" component={Main} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 };
