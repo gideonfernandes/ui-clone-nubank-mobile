@@ -2,17 +2,17 @@ import styled from 'styled-components/native';
 import { StyleSheet, Animated } from 'react-native';
 
 export const Container = styled(Animated.ScrollView)`
-  margin: 0 30px;
+  margin: 4px 30px;
 `;
 
 export const Code = styled.View`
   background: #FFF;
-  padding: 10px;
+  padding: 8px;
   align-self: center;
 `;
 
 export const Nav = styled.View`
-  margin-top: 30px;
+  margin-top: 15px;
   border-top-width: ${StyleSheet.hairlineWidth}px;
   border-top-color: rgba(255, 255, 255, 0.8);
 `;

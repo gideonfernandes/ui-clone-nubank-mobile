@@ -24,7 +24,7 @@ const Main = () => {
   let offset = 0;
 
   const translateY = new Animated.Value(0);
-  const animatedEvent = ANimated.event(
+  const animatedEvent = Animated.event(
     [
       {
         nativeEvent: {
